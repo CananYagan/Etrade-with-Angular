@@ -1,1 +1,4 @@
 # Etrade-with-Angular
+
+I made a project development on the frontand side with Angular and on the backend side with C#. I can call the API related to products and category from my backend 'Etrade' project in my angular project and select the products on the basis of category and add them to the cart. I can select more than one product in the cart and delete these products. I will also add a login page to my project. I plan to add a page where I will show product details and a picture of the products.
+(Angular ile frontand tarafında,C# ile de backend tarafında bir proje geliştirmesi yaptım. Backend 'Etrade' adlı projemden products ve category ile ilgili API'yi angular projemde çağırıp ürünleri kategori bazında seçip sepete ekliyebiliyorum. Sepete birden fazla ürün seçip bu ürünleri silebiliyorum.Projeme giriş sayfası da ekleyeceğim. Ürün detaylarını göstereceğim bir sayfa ve ürünlerin resmini de eklemeyi planlıyorum.)
