@@ -27,9 +27,16 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-toastr/toastr.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+            "./node_modules/jquery/dist/jquery.min.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "./node_modules/@popperjs/core/dist/umd/popper.min.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+          ]
           },
           "configurations": {
             "production": {
@@ -102,5 +109,8 @@
       }
     }
   },
-  "defaultProject": "products"
+  "defaultProject": "products",
+  "cli": {
+    "analytics": "970659fa-ed2a-41b6-96f9-6c29baa3ef74"
+  }
 }
