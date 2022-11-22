@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.9.
 
+Canan Says:
+I made a project development on the frontand side with Angular and on the backend side with C#. I can call the API related to products and category from my backend 'Etrade' project in my angular project and select the products on the basis of category and add them to the cart. I can select more than one product in the cart and delete these products. I will also add a login page to my project. I plan to add a page where I will show product details and a picture of the products.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
