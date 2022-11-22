@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import { CartItem } from '../models/cartitem';
-import { CartItems } from '../models/cartitems';
+import { CartItem } from '../models/cartItem';
+import { CartItems } from '../models/cartItems';
 import { Product } from '../models/product';
+
 
 @Injectable({
   providedIn: 'root'
@@ -15,10 +16,10 @@ export class CartService {
   if (item) {
     item.quantity+=1;
   } else {
-    let cartitem=new CartItem();
-    cartitem.product=product;
-    cartitem.quantity=1;
-    CartItems.push(cartitem)
+    let cartItem=new CartItem();
+    cartItem.product=product;
+    cartItem.quantity=1;
+    CartItems.push(cartItem)
     }
   }
 

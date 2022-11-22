@@ -109,8 +109,9 @@
       }
     }
   },
-  "defaultProject": "products",
+  
   "cli": {
     "analytics": "970659fa-ed2a-41b6-96f9-6c29baa3ef74"
-  }
+  },
+  "defaultProject": "products"
 }
